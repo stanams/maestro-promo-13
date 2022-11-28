@@ -1,10 +1,22 @@
 Pour vous aidez avec le markup : https://support.zendesk.com/hc/fr/articles/4408846544922-Formatage-de-texte-avec-Markdown
-Indquez ici voter découpage de l'epic en titres de user stories
+Indiquez ici voter découpage de l'epic en titres de user stories
 
-**EPIC: Double authentification**
+## EPIC: Double authentification (2FA)
 
-US1 : En tant qu'utilisateur (déjà inscrit), je veux pouvoir me connecter sur mon compte afin d'accéder à mon espace perso.
-Critères d'acceptance : règle de gestion champs login et mdp
-US2 : En tant qu'utilisateur non loggué, je veux pouvoir créer mon compte afin d'accéder à mon mon espace perso.
-Critère d'acceptance : règle de gestion champs login et mdp
+Login user => Demande de verification par sms => Indiquer mon code du sms => Autorisation pour garder en mémoire le nav.
+
+US1 : 
+  En tant qu'utilisateur (déjà inscrit), 
+  je veux pouvoir me connecter sur mon compte 
+  afin d'accéder à mon espace perso.
+
+**Critères d'acceptance** : règle de gestion champs login et mdp
+
+US2 : 
+  En tant qu'utilisateur non loggé, 
+  je veux pouvoir recevoir un sms
+  afin de pouvoir m'auhtentifier
+  
 US3 : 
+
+
