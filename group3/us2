@@ -1,0 +1,41 @@
+US 2 : 
+En tant qu'utilisateur, 
+je souhaite recevoir un code de vérification par SMS 
+afin de renseigner le code sur la page de vérification. 
+
+
+CAS 1 : 
+scénario : l'utilisateur système loggué est sur la page 2FA
+Etant donné que je suis un utilisateur système connecté avec un numéros de téléphone enregistré
+Lorsque je clique sur le cta "recevoir un code de verif" 
+Alors le système m'envoi par sms un code à 6 chiffre afin de valider ma 2FA et accéder à mon profil
+
+CAS 2 : 
+scénario : l'utilisateur système loggué est sur la page 2FA
+Etant donné que je suis un utilisateur système connecté avec un numéros de téléphone enregistré
+Lorsque je clique sur le cta "recevoir un code de verif" 
+Alors le système m'envoi par sms un code à 6 chiffre afin de valider ma 2FA et accéder à mon profil
+
+
+
+
+
+US 3 : 
+En tant qu'utilisateur, 
+je souhaite que mon code soit validé 
+afin de me connecter à mon compte. 
+
+
+
+
+
+
+
+US 4 : 
+En tant qu'utilisateur, 
+je souhaite pouvoir enregistrer mes préférences dans mon navigateur 
+afin de ne plus avoir à lancer le 2FA lors de mes prochaines connexions. 
+
+
+
+
