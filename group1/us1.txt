@@ -12,6 +12,29 @@
 
 Étape 5 : Permettre l'accès au compte en redirigeant vers la page du compte/page centrale.
 
+--- 
+US4 : Proposer à l'utilisateur de "sauvegarder/enregistrer" le navigateur actuel comme navigateur de confiance afin d'éviter d'autres 2FA à chaque fois qu'il essaie de se connecter.
+En tant qu'utilisateur qui a validé son processus 2FA
+je veux pouvoir "sauvegarder/enregistrer" mon navigateur
+afin de ne pas avoir à répéter le processus 2FA à chaque fois que je me connecte.
+CA_1 :
+GIVEN En tant qu'utilisateur, j'ai validé mon code à 6 chiffres avec succès.
+WHEN je clique sur "Se fier ce navigateur"
+THEN Le navigateur est enregistré et je suis redirigé vers la page d'accueil
+CA_2 :
+GIVEN En tant qu'utilisateur ayant saisi le code à 6 chiffres
+WHEN que je clique sur le bouton "Plus Tard".
+THEN je suis redirigé vers la page d'accueil mais je devrai recommencer le processus 2FA depuis le début, lors de ma prochaine connexion.
+CA_3 :
+GIVEN En tant qu'utilisateur ayant validé le code à 6 chiffres et sauvegardé le navigateur
+WHEN je me connecte à partir du même navigateur
+THEN  je suis automatiquement connecté sans avoir besoin du processus 2FA.
+CA_4 :
+GIVEN Comme un utilisateur qui a activé le 2FA sur son compte
+WHEN je me connecte à partir d'un autre navigateur
+THEN je dois recommencer le processus 2FA depuis le début.
+
+
 -------
 En tant qu'utisateur en cours de log, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
 je renseigne mon numéro de téléphone dans le champ vide et clique sur le bouton "recevoir un code de vérification" 
