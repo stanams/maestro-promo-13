@@ -1,0 +1,20 @@
+ ____ User Stories : Vérification Code Double Authentification
+  
+ When..        Quand un utilisateur rentre son code d'authentification à 6 chiffres 
+ I want to..   Il faut que le code soit vérifié 
+ So I can..   Pour que l'on puisse avancer dans le flow d'authentification et proposer d'enregistrer son device sécurisé pour les prochaines connexions.
+ 
+ 
+ ____ Conditions 
+ 
+ "Code reçu par sms " =! "Vide"
+ & "Code reçu par SMS" == "Code rentrés sur la page 'Vérification'"
+
+ ___ Critères d'acceptances :
+ 
+ > Sachant que l'user  a reçu un sms avec son code d'authentification
+ > Lorsqu'il a rentrer un code à 6 chiffres
+  > (Si code rentré == code généré ) la double authentification est validée et on propose à l'user d'enregistrer son navigateur en tant que fiable
+  ou
+  > (Else) il doit recevoir une. notification de code éronné avec la possiiblité de recevoir un code à nouveau
+  
