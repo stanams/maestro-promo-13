@@ -1,0 +1,6 @@
+US2: Demander à recevoir un code de Vérification
+
+En tant qu'utilisateur avec un téléphone valide, je veux recevoir par sms mon code de vérification afin d'accéder à la A2F.
+
+
+CAS1: Etant donné que je suis la page code de vérification quand je clique sur le bouton recevoir un code de vérification, alors un sms (Text voir wireframe) est envoyé sur le téléphone affiché
