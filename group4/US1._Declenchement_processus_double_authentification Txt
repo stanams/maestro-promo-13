@@ -11,17 +11,14 @@ Job story : En tant que user, je veux accéder au site avec une double authentif
       QUAND je clique sur le bouton "Se connecter" 
       ALORS la base doit aller chercher le numéro associé aux login / 
       
-      Si non ETANT DONNE que le user n'a pas de téléphone renseigné dans la BDD
-      QUAND il clique sur Se connecter 
-      ALORS le user arrive sur la homepage sans double authentification 
+            CAS 1 : ETANT DONNE que le user n'a pas de téléphone renseigné dans la BDD
+            QUAND il clique sur Se connecter 
+            ALORS le user arrive sur la homepage sans double authentification 
+
+            CAS 2 : ETANT DONNE que le user à bien un numéro de téléphone 
+            QUAND la page "Recevoir mon code de vérification" s'ouvre
+            ALORS le numéro de téléphone du user apparait en grisé dans la case numéro de tel avec le bouton 
       
-      Si oui ETANT DONNE que le user à bien un numéro de téléphone 
-      QUAND la page "Recevoir mon code de vérification" s'ouvre
-      ALORS le numéro de téléphone du user apparait en grisé dans la case numéro de tel avec le bouton 
-      
-      ETANT DONNE que 
-      QUAND
-      ALORS 
             Flow 1 : 
            >Trigger 'Push "Recevoir mon code de vérification"
 
