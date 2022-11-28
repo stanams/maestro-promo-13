@@ -1,21 +1,29 @@
-US 0 : En tant qu'utilisateur possédant déjà un compte 
+Contexte : En tant qu'utilisateur possédant déjà un compte 
 je souhaite renseigner mon adresse mail et mon mot de passe 
 afin de me connecter à mon compte. 
 
 -----
 US 1: 
-En tant qu'utilisateur inscrit loggué ayant enregistré au préalable un numéro de téléphone portable, 
-je souhaite être redirigé vers la page de vérification 2FA
-afin de renseigner le code SMS à 6 chiffres. 
+En tant qu'utilisateur inscrit non loggué
+Je renseigne mon mdp et mon login et je suis redirigé vers la page de vérification 2FA
+Afin de me connecter de façon sécurisée
 
 
 CAS1: 
-Scénario : L'utilisateur système se connecte avec des informations d'identification valides en passant par le 2FA. 
+Scénario : L'utilisateur se connecte avec des informations d'identification valides
 
-Etant donné que je suis un utilisateur système loggué
+Etant donné que je suis un utilisateur loggué dont le téléphone n'est pas renseigné dans le système
 Lorsque que je remplis les champs 'adresse mail' et 'mot de passe' valides
-Alors le système me connecte et me redirige vers la page de vérification. 
+Alors le système me redirige vers ma page d'acceuil
  
+ 
+CAS2: 
+Scénario : L'utilisateur se connecte avec des informations d'identification valides en passant par le 2FA. 
+
+Etant donné que je suis un utilisateur loggué avec le téléphone renseigné dans le système
+Lorsque que je remplis les champs 'adresse mail' et 'mot de passe' valides
+Alors le système me redirige vers la page d'authentification 2FA
+
 -----
 
 US 2 : 
@@ -36,22 +44,30 @@ Alors le système m'envoi par sms un code à 6 chiffres afin de valider ma 2FA e
 
 US 3 : 
 En tant qu'utilisateur, 
-je souhaite que mon code soit validé 
-afin de me connecter à mon compte. 
+je souhaite pouvoir renseigner mon code 
+afin de le valider et de me connecter à mon compte. 
 
 CAS1 : 
 Scénario : L'utilisateur loggué réceptionne le code par SMS
 
-Etant donné que je suis un utilisateur loggué avec un numéro de téléphone enregistré
+Etant donné que je suis un utilisateur loggué qui a reçu mon code
 Lorsque je renseigne mon code à 6 chiffres valide sur ma page 2FA
-Alors le système valide ma connexion 
+Alors le système valide ma connexion et je suis redirigé vers la page choix de préférence
 
 CAS2 : 
 Scénario : L'utilisateur loggué réceptionne le code par SMS
 
-Etant donné que je suis un utilisateur loggué avec un numéro de téléphone enregistré
+Etant donné que je suis un utilisateur loggué 
 Lorsque je renseigne mon code à 6 chiffres non valide sur ma page 2FA
-Alors le système ne valide pas ma connexion et m'affiche un message d'erreur
+Alors le système ne valide pas ma connexion et m'affiche un message d'erreur (cf maquette)
+
+CAS3: 
+Scénario : L'utilisateur loggué réceptionne le code par SMS
+
+Etant donné que je suis un utilisateur loggué 
+Lorsque je renseigne mon code avec 1 première lettre sur ma page 2FA
+Alors le système m'affiche un message m'indiquant que le code doit être en chiffre uniquement (cf maquette)
+
 
 -----
 
@@ -62,7 +78,7 @@ afin que le système ne lance plus la page 2FA lors de mes prochaines connexions
 
 
 CAS1 : 
-Scénario : L'utilisateur système loggué arrive sur la page de préférence "Simplifier votre connexion"
+Scénario : L'utilisateur loggué arrive sur la page de préférence "Simplifier votre connexion"
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Se fier à ce navigateur" 
@@ -70,7 +86,7 @@ Alors le système ne lance plus la page 2FA lors de mes prochaines connexions.
 
 
 CAS2 : 
-Scénario : L'utilisateur système loggué arrive sur la page de préférence "Simplifier votre connexion"
+Scénario : L'utilisateur loggué arrive sur la page de préférence "Simplifier votre connexion"
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Plus tard" 
