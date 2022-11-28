@@ -15,8 +15,14 @@ US1 :
 US2 : 
   En tant qu'utilisateur non loggé, 
   je veux pouvoir recevoir un sms
-  afin de pouvoir m'auhtentifier
-  
+  afin de pouvoir m'auhtentifier.
+
+**Critères d'acceptance** : bouton à cliquer pour envoyer sms
+
 US3 : 
-
-
+  En tant qu'utilisateur non loggé,
+  je veux pouvoir rentrer le code à 5 chiffres reçu par sms
+  afin de valider ma deuxième authentification.
+  
+**Critères d'acceptance** : champs pour intégrer les cinq chiffres à la main
+  
