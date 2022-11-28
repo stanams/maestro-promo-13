@@ -1,3 +1,10 @@
-En tant qu'utilisateur de la plateforme
-Je veux m'authentifier à la plateforme en renseignant email et mot de passe
+En tant qu'utilisateur de la plateforme non loggué
+Je veux m'authentifier à la plateforme en renseignant email et mot de passe et en cliquant sur "se connecter"
 Afin d'accèder à mon compte client
+
+-----
+En tant qu'utisateur, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
+je renseigne mon numéro de téléphone dans le champ vide et clique sur le bouton "recevoir un code de vérification"
+afin de poursuivre les étapes de connexion à mon compte
+
+--------
