@@ -17,8 +17,10 @@ US1 :
 - un code de validation est envoyé par sms l'utilisateur renseinge le code qu'il à reçu.
 * Etant donné que l'utilisateur à bien reçu le sms avec le code de confirmation
 - l'orsque que le champ du chiffre est rempli le curseur se déplace
-- quand je saisie une lettre, le champ se vide 
+- quand je saisie une lettre, le champ se vide, il a une animation qui vibre, et le telephonne vibre
 - un système de sécurité est mis en place pour le brutforce au bout de 3 tentatives fausses bloquer le compte
+* Etant donné que l'utilisateur à rempli dernier chiffre du code
+- une requette est envoyée pour verifier que le code correspond bien
 
 US2 : 
   En tant qu'utilisateur loggé, 
