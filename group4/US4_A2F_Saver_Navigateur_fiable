@@ -1,0 +1,21 @@
+ ____ User Stories : Save un Navigateur Fiable pour la A2F
+  
+ When..        Dès qu'un utilisateur s'est double authentifié avec succès
+ I want to..   Il faut lui proposer d'enregistrer son navigateur en tant que navigateur fiable
+ So I can..   Pour qu'il n'ait plus besoin de s'authentifier avec A2F sur ce navigateur les prochaines fois
+ 
+ 
+ ____ Conditions 
+ 
+Parcours A2F doit être validé
+Proposer l'option "Skip" + nouvelle proposition de A2F toutes les 5 sessions
+
+ ___ Critères d'acceptance :
+ 
+ > Quand l'utilisateur clique sur le bouton "Se fier à ce navigateur", 
+ l'ID du navigateur est enregistré comme fiable
+ l'utilisateur est redirigé vers la homepage.
+ 
+ > Quand l'utilisateur clique sur le bouton "Plus tard", 
+ l'ID du navigateur n'est pas enregistré comme fiable, la A2F pourra lui être proposé à une prochaine session,
+ l'utilisateur est redirigé vers la homepage.
