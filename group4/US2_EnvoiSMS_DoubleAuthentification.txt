@@ -1,0 +1,21 @@
+ ____ User Stories : Envoie SMS Double Authentification
+ 
+ En tant qu'utilisateur connecté ayant confirmer mon intention de déclencher la double authentification
+ Je souhaite "Recevoir un code de vérification" par SMS et que l'écran me permette de rentrer le code reçu 
+ Afin de m'assurer d'être connecté de manière sécurisé. 
+ 
+ ____ Conditions 
+ 
+ - API génération de code à 6 chiffres
+ - "Template SMS" 'Voici votre code "XXXXXX"
+ - Connexion au services d'envoi du SMS (Ex : Twilio)
+
+ ___ Critères d'acceptances :
+ 
+
+ > Sachant que je suis dans le flow de double authen. 
+ > Quand j'ai cliqué sur "Recevoir mon code de vérification"
+  > Je reçois un code à 6 chiffres par SMS
+  > Une page pour rentrer mon code s'ouvre 
+ 
+ ___ 
