@@ -3,11 +3,16 @@ Je veux m'authentifier à la plateforme en renseignant email et mot de passe et 
 Afin d'accèder à mon compte client
 
 -----
-En tant qu'utisateur, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
+En tant qu'utisateur en cours de log, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
 je renseigne mon numéro de téléphone dans le champ vide et clique sur le bouton "recevoir un code de vérification"
 afin de poursuivre les étapes de connexion à mon compte
 
 --------
-En tant qu'utilisateur, j'arrive sur l'étape de validation par sms 
+En tant qu'utilisateur en cours de log, j'arrive sur l'étape de validation par sms 
 je renseigne le code de vérification par sms
 je suis redirigé automatiquement à l'étape suivante
+
+-------
+En tant qu'utilisateur en cours de log, j'arrive sur l'étape finale "simplifier votre connexion"
+je clique sur "se fier à ce navigateur" ou "plus tard"
+afin d'accèder à la plateforme comme utilisateur loggé
