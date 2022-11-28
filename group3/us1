@@ -1,8 +1,4 @@
-Contexte : En tant qu'utilisateur possédant déjà un compte 
-je souhaite renseigner mon adresse mail et mon mot de passe 
-afin de me connecter à mon compte. 
 
------
 US 1: 
 En tant qu'utilisateur inscrit non loggué
 Je renseigne mon mdp et mon login et je suis redirigé vers la page de vérification 2FA
@@ -68,6 +64,12 @@ Etant donné que je suis un utilisateur loggué
 Lorsque je renseigne mon code avec 1 première lettre sur ma page 2FA
 Alors le système m'affiche un message m'indiquant que le code doit être en chiffre uniquement (cf maquette)
 
+CAS4: 
+Scénario : L'utilisateur loggué réceptionne le code par SMS
+
+Etant donné que je suis un utilisateur loggué 
+Lorsque je ne renseigne pas mon code au bout de 10 minutes 
+Alors le système me renvoi sur la page d'acceuil
 
 -----
 
@@ -91,7 +93,6 @@ Scénario : L'utilisateur loggué arrive sur la page de préférence "Simplifier
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Plus tard" 
 Alors je suis redirigé vers la page d'acceuil et le système devra lancer la page 2FA lors de mes prochaines connexions. 
-
 
 
 
