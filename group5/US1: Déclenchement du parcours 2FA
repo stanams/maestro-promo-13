@@ -1,0 +1,15 @@
+US1: Déclenchement du parcours 2FA 
+En tant qu'utilisateur déjà inscrit non loggué , 
+je veux declencher le parcours A2F 
+afin d'être connectée de maniére securisée.
+
+
+CAS1:
+Etant donné que je suis incrit et loggué avec un téléphone renseigné 
+quand je clique sur se connecter 
+alors j'arrive sur la page code de vérification (Cf: wireframe modale)
+
+CAS2:
+Etant donné que je suis inscrit et loggué sans avoir renseigné un téléphone 
+quand je clique sur se connecter 
+alors j'ai pas la proposition du parcours A2F
