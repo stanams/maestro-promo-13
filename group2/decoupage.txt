@@ -22,9 +22,9 @@ US2 :
   - Etant donné que j'ai reçu un sms et que suis connecté quand je rentre le code dans le champ alors je suis redirigé auto. vers "Simplifier votre     connexion"
   - Etant donné que j'ai reçu un sms et que je suis non connecté
   - Etant donné que j'ai reçu un sms expiré et que je suis connecté
-  - Etant donné que j'ai reçu un sms et que suis connecté  quand je saisie un chiffre dans le champ, je passe automatiquement au champ suivant pour le prochain chiffre
-  - Etant donné que j'ai reçu un sms et que suis connecté quand je saisie une lettre ou un caractère special, je ne peux pas remplir le champ et je suis notifié par un une vibration.
-  - Etant donné que j'ai saisie le dernier champ  et que je suis connecté , mon code est valide , je passe à l'étape suivante.
+  - Etant donné que j'ai reçu un sms et que suis connecté  quand je saisis un chiffre dans le champ, je passe automatiquement au champ suivant pour le prochain chiffre
+  - Etant donné que j'ai reçu un sms et que suis connecté quand je saisis une lettre ou un caractère special, je ne peux pas remplir le champ et je suis notifié par un une vibration.
+  - Etant donné que j'ai saisie le dernier champ  et que je suis connecté , mon code est validé , je passe à l'étape suivante.
   
 US3 : 
   En tant qu'utilisateur non loggé,
