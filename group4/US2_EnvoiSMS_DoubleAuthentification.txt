@@ -1,4 +1,4 @@
- ____ User Stories : Envoie SMS Double Authentification
+ ____ User Stories : Envoi_SMS_Double_Authentification
  
  En tant qu'utilisateur connecté ayant confirmer mon intention de déclencher la double authentification
  Je souhaite "Recevoir un code de vérification" par SMS et que l'écran me permette de rentrer le code reçu 
