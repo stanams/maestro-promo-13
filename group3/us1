@@ -23,7 +23,7 @@ Alors le système me redirige vers la page d'authentification 2FA
 -----
 
 US 2 : 
-En tant qu'utilisateur, 
+En tant qu'utilisateur loggué, 
 je souhaite recevoir un code de vérification par SMS 
 afin de renseigner le code sur la page de vérification. 
 
@@ -74,7 +74,7 @@ Alors le système me renvoi sur la page d'acceuil
 -----
 
 US 4 : 
-En tant qu'utilisateur, 
+En tant qu'utilisateur ayant validé la page 2FA, 
 je souhaite pouvoir enregistrer mes préférences dans mon navigateur 
 afin que le système ne lance plus la page 2FA lors de mes prochaines connexions sur le navigateur enregistré
 
