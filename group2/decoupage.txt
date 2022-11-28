@@ -3,4 +3,7 @@ Indquez ici voter découpage de l'epic en titres de user stories
 
 **EPIC: Double authentification**
 
-US1 : En tant qu'utilisateur, je veux pouvoir remplir les champs ID et MDP afin de procéder à la première étape d'authentification.
+US1 : En tant qu'utilisateur (déjà inscrit), je veux pouvoir me connecter sur mon compte afin d'accéder à mon espace perso.
+Critères d'acceptance : règle de gestion champs login et mdp
+US2 : En tant qu'utilisateur non loggué, je veux pouvoir créer mon compte afin d'accéder à mon mon espace perso.
+Critère d'acceptance : règle de gestion champs login et mdp
