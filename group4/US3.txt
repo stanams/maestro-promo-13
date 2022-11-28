@@ -1,12 +1,24 @@
-Notter les étapes des US 
-EPIC > X Facteurs > US 1 (Titre), US 2 (Titre) , US 3 (Titre) 
-
-Bas de page (Commit, Titre "Premier découpage" ) ; > 
-
-EPIC
-En tant qu'utilisateur non connecté, je souhaite que 
-
-
+ ____ User Stories : " Tittle" 
+ 
+ En tant que : 
+ Je souhaite que :
+ Afin de : 
+ 
+ ____ Jobs Stories
+ 
+ When ...
+ I want to... 
+ So I cann... 
+ 
+ ____ Conditions 
+ 
+ - 
+ -
+ -
+ 
+ 
+ 
+ 
 US0: "Login"
         Trigger 'Push "Se connecter"' 
 
