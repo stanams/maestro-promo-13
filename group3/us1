@@ -1,0 +1,19 @@
+US 0 : En tant qu'utilisateur possédant déjà un compte 
+je souhaite renseigner mon adresse mail et mon mot de passe 
+afin de me connecter à mon compte. 
+
+US 1: 
+En tant qu'utilisateur inscrit loggué ayant enregistré au préalable un numéro de téléphone portable, 
+je souhaite être redirigé vers la page de vérification 2FA
+afin de renseigner le code SMS à 6 chiffres. 
+
+
+CAS1: 
+Scénario : L'utilisateur système se connecte avec des informations d'identification valides en passant par le 2FA. 
+
+Etant donné que je suis un utilisateur système loggué
+
+Lorsque que je remplis les champs 'adresse mail' et 'mot de passe' valides
+
+Alors le système me connecte et me redirige vers la page de vérification. 
+ 
