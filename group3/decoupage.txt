@@ -1,1 +1,10 @@
 Indquez ici voter découpage de l'epic en titres de user stories
+
+EPIC: mettre en place l’authentification à 2 facteurs
+
+Etape 1 : Déclenchement de l'expérience 2FA d'un utilisateur déjà existant (adresse mail + mot de passe)
+Etape 2 : Page de vérification via le numéro de téléphone enregistré dans la base de données // Déclenchement de l'envoi du SMS // Réception du code par SMS
+Etape 3 : Renseignement du code à 6 chiffres + validation de l'étape lors du renseignement du dernier chiffre 
+Etape 4 : Proposition d'enregistrer ce navigateur comme fiable (afin de ne plus réaliser l'authentification à 2 facteurs)
+Etape 5 : Accès au compte utilisateur
+
