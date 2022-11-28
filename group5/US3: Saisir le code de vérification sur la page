@@ -1,0 +1,24 @@
+US3: Saisir le code de vérification sur la page
+
+
+Etant donné que j'ai reçu un sms avec un code de vérification
+Quand je saisis le code 
+Alors j'arrive sur la page de "Mémorisation du navigateur " (cf wireframe)
+
+
+CAS1: 
+Etant donné que j'ai reçu le code de verification
+Quand je prends plus d'1mn pour le saisir 
+Alors le code de vérification n'est plus valide à la saisie 
+
+CAS2
+Etant donné que le code reçu n'est plus valide à la saisie ( plus de 1mn)
+Quand je le saisis
+Alors un message d'erreur est affiché "Code expiré" avec champs highlightés en rouge avec le bouton renvoyer le code
+
+
+CAS3:
+Etant donné que le code reçu est toujours valide
+Quand je le saisis avec une erreur 
+Alors un message d'erreur est affiché "Code erroné" avec champs highlightés en rouge si je suis toujours dans les temps (1MN) je peux toujours le ressaisir
+
