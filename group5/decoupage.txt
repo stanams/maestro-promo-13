@@ -1,7 +1,9 @@
 Groupe 5: Alice,Amy,Delphine,Christelle
 Etapes Epic: mettre en place l’authentification à 2 facteurs
 
-**En tant qu'utilisateur déjà inscrit, je veux me connecter avec le A2F sur le leboncoin afin d'accéder à mon compte de maniére securisée**
+**En tant qu'utilisateur déjà inscrit, 
+je veux me connecter avec le A2F sur le leboncoin 
+afin d'accéder à mon compte de maniére securisée**
 
 US1:Déclechement du parcours 2FA 
 US2:Demander à recevoir un code de verification  
