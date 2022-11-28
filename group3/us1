@@ -39,8 +39,8 @@ Alors le système m'envoi par sms un code à 6 chiffres afin de valider ma 2FA e
 -----
 
 US 3 : 
-En tant qu'utilisateur, 
-je souhaite pouvoir renseigner mon code 
+En tant qu'utilisateur ayant réceptionné son code, 
+je souhaite pouvoir renseigner mon code sur la page 2FA
 afin de le valider et de me connecter à mon compte. 
 
 CAS1 : 
@@ -76,7 +76,7 @@ Alors le système me renvoi sur la page d'acceuil
 US 4 : 
 En tant qu'utilisateur, 
 je souhaite pouvoir enregistrer mes préférences dans mon navigateur 
-afin que le système ne lance plus la page 2FA lors de mes prochaines connexions. 
+afin que le système ne lance plus la page 2FA lors de mes prochaines connexions sur le navigateur enregistré
 
 
 CAS1 : 
@@ -84,7 +84,7 @@ Scénario : L'utilisateur loggué arrive sur la page de préférence "Simplifier
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Se fier à ce navigateur" 
-Alors le système ne lance plus la page 2FA lors de mes prochaines connexions. 
+Alors le système ne lance plus la page 2FA lors de mes prochaines connexions sur le navigateur enregistré
 
 
 CAS2 : 
@@ -92,7 +92,7 @@ Scénario : L'utilisateur loggué arrive sur la page de préférence "Simplifier
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Plus tard" 
-Alors je suis redirigé vers la page d'acceuil et le système devra lancer la page 2FA lors de mes prochaines connexions. 
+Alors je suis redirigé vers la page d'acceuil et le système devra lancer la page 2FA lors de mes prochaines connexions le navigateur enregistré
 
 
 
