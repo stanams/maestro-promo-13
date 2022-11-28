@@ -3,4 +3,4 @@ Indquez ici voter découpage de l'epic en titres de user stories
 
 **EPIC: Double authentification**
 
-
+US1 : En tant qu'utilisateur, je veux pouvoir remplir les champs ID et MDP afin de procéder à la première étape d'authentification.
