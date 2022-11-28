@@ -10,7 +10,17 @@ US1 :
   et je veux recevoir un sms
   afin de sécuriser ma connexion.
 
-**Critères d'acceptance** : bouton our choisir double authentification + bouton pour choisir envoi de sms
+**Critères d'acceptance** : 
+* Etant donné que l'utilisateur renseigne son numéro de téléphonne
+- le champ du formulaire vérifie qu'il commence par 06 ou 07 et est une suite de 10 chiffres.
+* Etant donné que le numéro de téléphonne renseigné dans le formulaire est au bon format
+- un code de validation est envoyé par sms l'utilisateur renseinge le code qu'il à reçu.
+* Etant donné que l'utilisateur à bien reçu le sms avec le code de confirmation
+- l'orsque que le champ du chiffre est rempli le curseur se déplace
+- quand je saisie une lettre, le champ se vide, il a une animation qui vibre, et le telephonne vibre
+- un système de sécurité est mis en place pour le brutforce au bout de 3 tentatives fausses bloquer le compte
+* Etant donné que l'utilisateur à rempli dernier chiffre du code
+- une requette est envoyée pour verifier que le code correspond bien
 
 US2 : 
   En tant qu'utilisateur qui vient d'être loggé, 
