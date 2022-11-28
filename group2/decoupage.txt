@@ -1,1 +1,34 @@
-Indquez ici voter découpage de l'epic en titres de user stories
+Pour vous aidez avec le markup : https://support.zendesk.com/hc/fr/articles/4408846544922-Formatage-de-texte-avec-Markdown
+Indiquez ici voter découpage de l'epic en titres de user stories
+
+## EPIC: Double authentification (2FA)
+
+Login user => Demande de verification par sms => Indiquer mon code du sms => Autorisation pour garder en mémoire le nav.
+
+US1 : 
+  En tant qu'utilisateur je suis connecté sur mon compte, 
+  et je veux recevoir un sms
+  afin de sécuriser ma connexion.
+
+**Critères d'acceptance** : bouton our choisir double authentification + bouton pour choisir envoi de sms
+
+US2 : 
+  En tant qu'utilisateur loggé, 
+  je veux pouvoir remplir les champs correspondant aux chiffres sur le sms reçu
+  afin de pouvoir finaliser ma double authentification.
+
+**Critères d'acceptance** : champs à remplir + bouton pour renvoyer sms si non reçu + bouton voir plus tard
+
+US3 : 
+  En tant qu'utilisateur non loggé,
+  je veux pouvoir rentrer le code à 5 chiffres reçu par sms
+  afin de valider ma deuxième authentification.
+  
+**Critères d'acceptance** : champs pour intégrer les cinq chiffres à la main
+  
+  US4
+  En tant qu'utilisateur non loggé,
+  je veux qu'un code me sois envoyé par email,
+  afin de valider ma deuxième authentification
+  
+  **Critères d'acceptance** : bouton cliquer pour envoyer un mail
