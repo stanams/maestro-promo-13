@@ -25,9 +25,9 @@ afin de renseigner le code sur la page de vérification.
 
 
 CAS1 : 
-Scénario : L'utilisateur système loggué est sur la page 2FA
+Scénario : L'utilisateur loggué est sur la page 2FA
 
-Etant donné que je suis un utilisateur système loggué avec un numéro de téléphone enregistré
+Etant donné que je suis un utilisateur loggué avec un numéro de téléphone enregistré
 Lorsque je clique sur le CTA "recevoir un code de verification" 
 Alors le système m'envoi par sms un code à 6 chiffres afin de valider ma 2FA et accéder à mon profil
 
@@ -40,16 +40,16 @@ je souhaite que mon code soit validé
 afin de me connecter à mon compte. 
 
 CAS1 : 
-Scénario : L'utilisateur système loggué réceptionne le code par SMS
+Scénario : L'utilisateur loggué réceptionne le code par SMS
 
-Etant donné que je suis un utilisateur système loggué avec un numéro de téléphone enregistré
+Etant donné que je suis un utilisateur loggué avec un numéro de téléphone enregistré
 Lorsque je renseigne mon code à 6 chiffres valide sur ma page 2FA
 Alors le système valide ma connexion 
 
 CAS2 : 
-Scénario : L'utilisateur système loggué réceptionne le code par SMS
+Scénario : L'utilisateur loggué réceptionne le code par SMS
 
-Etant donné que je suis un utilisateur système loggué avec un numéro de téléphone enregistré
+Etant donné que je suis un utilisateur loggué avec un numéro de téléphone enregistré
 Lorsque je renseigne mon code à 6 chiffres non valide sur ma page 2FA
 Alors le système ne valide pas ma connexion et m'affiche un message d'erreur
 
