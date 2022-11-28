@@ -14,7 +14,8 @@
  
  > Sachant que l'user  a reçu un sms avec son code d'authentification
  > Lorsqu'il a rentrer un code à 6 chiffres
-  > (Si code rentré == code généré ) la double authentification est validée et on propose à l'user d'enregistrer son navigateur en tant que fiable
+  > (Si code rentré == code généré ) la double authentification est validée 
+      > on renvoie l'user sur son flow et on lui propose à l'user d'enregistrer son navigateur en tant que fiable
   ou
   > (Else) il doit recevoir une. notification de code éronné avec la possiiblité de recevoir un code à nouveau
   
