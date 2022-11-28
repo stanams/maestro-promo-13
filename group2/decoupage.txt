@@ -25,6 +25,25 @@ US3 :
   afin de valider ma deuxième authentification.
   
 **Critères d'acceptance** : champs pour intégrer les cinq chiffres à la main
+
+US3 update :
+En tant qu'utilisateur non loggé, 
+je rentre le code à 5 chiffres reçu 
+afin de valider ma deuxième authentification.
+
+Cas1
+Etant donné que je reçois un code sms, 
+quand je le note correctement dans le champs qui s'affiche, 
+alors je me logge.
+Cas 2
+Etant donné que je mets mon premier chiffre
+quand j'inscris mon code, 
+alors le curseur se déplace sur le champs suivant
+Cas 3
+Etant donné que je suis sur le dernier champs, 
+quand j'ai rempli le formulaire du code, 
+alors une requête est envoyée pour vérifier que le code est bon.
+
   
   US4
   En tant qu'utilisateur non loggé,
