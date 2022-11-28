@@ -1,0 +1,6 @@
+US1: Déclenchement du parcours 2FA 
+En tant qu'utilisateur déjà inscrit sur leboncoin , je veux voir la page code de vérification(cf Modale) afin d'être connectée de maniére securisée.
+
+
+CAS1:Etant donné que je suis incrit avec un téléphone renseigné quand je clique sur se connecter alors j'arrive sur la page code de vérification (Cf: wireframe modale)
+CAS2:Etant donné que je suis inscrit sans téléphone quand je clique sur se connecter  alors j'arrive sur page qui m'invite à renseigner mon numéro de téléphone (US à venir cf figma)
