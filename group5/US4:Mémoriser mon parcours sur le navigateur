@@ -1,0 +1,20 @@
+US4:Mémoriser mon parcours sur le navigateur
+
+
+En tant qu'utilisateur ayant validé la vérificateur A2F
+Je veux memoriser mon parcours sur ce navigateur 
+Afin de simplier ma prochaine connexion 
+
+
+CAS1:
+Etant donné que je suis sur la page mémorisation du navigateur 
+Quand je clique sur le bouton se fier à son navigateur
+Alors à ma prochaine connexion je vais directement à la Homepage
+
+
+CAS2:
+Etant donné que j'ai validé la mémorisation du navigateur
+Quand je me connecte sur un navigateur différent à celui que je me suis fier
+Alors à ma prochaine connexion je dois avoir la demande du parcours A2F 
+
+
