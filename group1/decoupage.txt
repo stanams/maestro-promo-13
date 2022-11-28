@@ -8,3 +8,6 @@ je renseigne mon numéro de téléphone dans le champ vide et clique sur le bout
 afin de poursuivre les étapes de connexion à mon compte
 
 --------
+En tant qu'utilisateur, j'arrive sur l'étape de validation par sms 
+je renseigne le code de vérification par sms
+je suis redirigé automatiquement à l'étape suivante
