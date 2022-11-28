@@ -1,1 +1,3 @@
-Indquez ici voter découpage de l'epic en titres de user stories
+En tant qu'utilisateur de la plateforme
+Je veux m'authentifier à la plateforme en renseignant email et mot de passe
+Afin d'accèder à mon compte client
