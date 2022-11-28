@@ -1,1 +1,2 @@
+Pour vous aidez ave le markup : https://support.zendesk.com/hc/fr/articles/4408846544922-Formatage-de-texte-avec-Markdown
 Indquez ici voter découpage de l'epic en titres de user stories
