@@ -7,3 +7,4 @@ US1 : En tant qu'utilisateur (déjà inscrit), je veux pouvoir me connecter sur 
 Critères d'acceptance : règle de gestion champs login et mdp
 US2 : En tant qu'utilisateur non loggué, je veux pouvoir créer mon compte afin d'accéder à mon mon espace perso.
 Critère d'acceptance : règle de gestion champs login et mdp
+US3 : 
