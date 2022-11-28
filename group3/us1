@@ -58,7 +58,7 @@ Alors le système ne valide pas ma connexion et m'affiche un message d'erreur
 US 4 : 
 En tant qu'utilisateur, 
 je souhaite pouvoir enregistrer mes préférences dans mon navigateur 
-afin de ne plus avoir à lancer le 2FA lors de mes prochaines connexions. 
+afin que le système ne lance plus la page 2FA lors de mes prochaines connexions. 
 
 
 CAS1 : 
@@ -66,14 +66,15 @@ Scénario : L'utilisateur système loggué arrive sur la page de préférence "S
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Se fier à ce navigateur" 
-Alors je n'aurai plus à lancer le 2FA lors de mes prochaines connexions. 
+Alors le système ne lance plus la page 2FA lors de mes prochaines connexions. 
+
 
 CAS2 : 
 Scénario : L'utilisateur système loggué arrive sur la page de préférence "Simplifier votre connexion"
 
 Etant donné que je suis un utilisateur système loggué et ayant validé mon 2FA
 Lorsque je clique sur le CTA "Plus tard" 
-Alors je suis redirigé vers la page d'acceuil et je devrais lancer le 2FA lors de mes prochaines connexions. 
+Alors je suis redirigé vers la page d'acceuil et le système devra lancer la page 2FA lors de mes prochaines connexions. 
 
 
 
