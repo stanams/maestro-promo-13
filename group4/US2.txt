@@ -1,7 +1,23 @@
-Notter les étapes des US 
-EPIC > X Facteurs > US 1 (Titre), US 2 (Titre) , US 3 (Titre) 
-
-Bas de page (Commit, Titre "Premier découpage" ) ; > 
+ ____ User Stories : " Tittle" 
+ 
+ En tant que : 
+ Je souhaite que :
+ Afin de : 
+ 
+ ____ Jobs Stories
+ 
+ When ...
+ I want to... 
+ So I cann... 
+ 
+ ____ Conditions 
+ 
+ - 
+ -
+ -
+ 
+ 
+ 
 
 EPIC
 En tant qu'utilisateur non connecté, je souhaite que 
@@ -52,5 +68,5 @@ US3: Ouverture Page "Rentrer le code"
   Flow 2  :
     > Trigger 'Push "Plus tard" 
         Flow "Arrivée page d'acceuil" 
-       
-              
+        
+
