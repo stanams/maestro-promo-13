@@ -1,18 +1,30 @@
+Étape 0 : Saisir les détails pour se connecter au compte
+
+Étape 1 : L'authentification 2FA est déclenchée après avoir cliqué sur le bouton de connexion
+
+Étape 2 : Redirigé vers la page de vérification.
+
+Étape 2.1 : Déclencher l'envoi du SMS au numéro enregistré avec le compte
+
+Étape 3 : Vérification par la saisie du code à 6 chiffres et redirection vers la page de validation (en cas de bon code à 6 chiffres) ; sinon, notification de mauvais code.
+
+Étape 4 : Proposer à l'utilisateur de "sauvegarder/enregistrer" le navigateur actuel en tant que navigateur de confiance afin d'éviter d'autres 2FA chaque fois qu'il essaie de se connecter.
+
+Étape 5 : Permettre l'accès au compte en redirigeant vers la page du compte/page centrale.
+
+-------
+En tant qu'utisateur en cours de log, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
+je renseigne mon numéro de téléphone dans le champ vide et clique sur le bouton "recevoir un code de vérification" 
+afin de poursuivre les étapes de connexion à mon compte
+
 En tant qu'utilisateur de la plateforme non loggué
 Je veux m'authentifier à la plateforme en renseignant email et mot de passe et en cliquant sur "se connecter"
 Afin d'accèder à mon compte client
 
------
-En tant qu'utisateur en cours de log, après avoir renseigné mon adresse email, j'arrive sur une page étape de vérification
-je renseigne mon numéro de téléphone dans le champ vide et clique sur le bouton "recevoir un code de vérification"
-afin de poursuivre les étapes de connexion à mon compte
-
---------
 En tant qu'utilisateur en cours de log, j'arrive sur l'étape de validation par sms 
 je renseigne le code de vérification par sms
 je suis redirigé automatiquement à l'étape suivante
 
--------
 En tant qu'utilisateur en cours de log, j'arrive sur l'étape finale "simplifier votre connexion"
 je clique sur "se fier à ce navigateur" ou "plus tard"
 afin d'accèder à la plateforme comme utilisateur loggé
