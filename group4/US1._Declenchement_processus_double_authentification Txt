@@ -1,0 +1,31 @@
+
+US1: Déclenchement du processus de double authentification à partir du Trigger 'Push "Se connecter" sur la page login
+
+Job story : En tant que user, je veux accéder au site avec une double authentification, afin de me connecter au site avec mon compte
+
+      ETANT DONNE l'affichage de la page de connexion avec le login et le mdp son rentrés dans le formulaire
+      QUAND le login ou le mdp du user sont incorrects  
+      ALORS un message d'erreur le prévient de réitérer  
+      
+      ETANT DONNE l'affichage de la page de connexion avec le login et le mdp son rentrés dans le formulaire 
+      QUAND je clique sur le bouton "Se connecter" 
+      ALORS la base doit aller chercher le numéro associé aux login / 
+      
+      Si non ETANT DONNE que le user n'a pas de téléphone renseigné dans la BDD
+      QUAND il clique sur Se connecter 
+      ALORS le user arrive sur la homepage sans double authentification 
+      
+      Si oui ETANT DONNE que le user à bien un numéro de téléphone 
+      QUAND la page "Recevoir mon code de vérification" s'ouvre
+      ALORS le numéro de téléphone du user apparait en grisé dans la case numéro de tel avec le bouton 
+      
+      ETANT DONNE que 
+      QUAND
+      ALORS 
+            Flow 1 : 
+           >Trigger 'Push "Recevoir mon code de vérification"
+
+            Flow 2  :
+            > Trigger 'Push "Plus tard" 
+                Flow 3  
+        Critères d'acceptances : 
