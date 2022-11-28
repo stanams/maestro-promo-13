@@ -26,3 +26,9 @@ US3 :
   
 **Critères d'acceptance** : champs pour intégrer les cinq chiffres à la main
   
+  US4
+  En tant qu'utilisateur non loggé,
+  je veux qu'un code me sois envoyé par email,
+  afin de valider ma deuxième authentification
+  
+  **Critères d'acceptance** : bouton cliquer pour envoyer un mail
