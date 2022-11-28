@@ -1,6 +1,31 @@
 US2: Demander à recevoir un code de Vérification
+En tant qu'utilisateur avec un téléphone valide, 
+Je veux recevoir par sms mon code de vérification
+Afin d'accéder à la A2F.
 
-En tant qu'utilisateur avec un téléphone valide, je veux recevoir par sms mon code de vérification afin d'accéder à la A2F.
+
+CAS1:
+Etant donné que je suis sur la page code de vérification 
+Quand je dois avoir le bouton recevoir un code de vérification, 
+Alors au clic un sms  est envoyé sur le téléphone affiché/renseigné
 
 
-CAS1: Etant donné que je suis la page code de vérification quand je clique sur le bouton recevoir un code de vérification, alors un sms (Text voir wireframe) est envoyé sur le téléphone affiché
+CAS2: 
+Etant donné que je clique sur le bouton recevoir un code de vérification,
+Quand je reçois un sms 
+Alors le sms doit contenir un code au format XXXXXX (cf wireframe)
+
+CAS3:
+Etant donné que je suis sur la modale code de vérification
+Quand je ne clique pas sur recevoir un code de vérification
+Alors je dois avoir le lien 'plus tard" cliquable
+
+CAS4:
+Etant donné que je suis sur la page code de vérification
+Quand je clique sur le lien plus tard 
+Alors je reviens sur le parcours classique
+
+CAS5:
+Etant donné que je suis sur la page code de vérification
+Quand je clique sur le lien "plus tard" , ou recevoir un code de vérification
+Alors un tracking est declenché ( Cf tracking plan)
